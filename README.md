@@ -2,6 +2,13 @@
 
 in file 1:
 
+here is a sample of pure function.
+1.pure function in solidity doesn't change or doesn't read state variables,that can be used in doing calculations(without changing the state) and it can only uses it's local variables.
+difference between pure & view :
+a view function is read only but pure functions are not.
+
+
+in file 2:
 this is a smart contract that hase 3 functions:
 
 at first in //2-alef : here we have coloredwallet struct with two values in uint256 type called:numberOfRedCoins and numberOfBlueCoins.
@@ -18,8 +25,5 @@ in part //2-p (burnAndGet) : here we have a function wich each user can burn one
 in section //2-t: (send function) : the last function is designed for transfering blue coins between two persons,this function checks for receiver's address existing and gives accessiblity
 for each user to send coins only from he/she 's wallet address.
 
-in file 2:
-here is a sample of pure function.
-1.pure function in solidity doesn't change or doesn't read state variables,that can be used in doing calculations(without changing the state) and it can only uses it's local variables.
-difference between pure & view :
-a view function is read only but pure functions are not.
+
+
